@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://wallpapercave.com/wp/wp3764720.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    padding: 10px 9px;
+    background-color: #0ABCAD ;
+    color :black;
+    -webkit-text-stroke: 1.5px #0C4B46  ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800%;
+    font-family: "Lucida Console", Monaco, monospace; 
+}
+.Logo{
+
+    -webkit-text-stroke: 3 px #0C4B46  ;
+    color: black;
+   font-size: 35px;
+   font-weight: 800%;
+   font-family: "Courier New", monospace; 
+
+}
+.navbar,ul,li{
+   list-style: none;
+   display: flex;
+
+}
+ul,li{
+    margin: 40px;
+}
+.navbar,ul,a{
+    -webkit-text-stroke: .5px #C91761;
+    font-size: 20px;
+    font-weight: 40px;
+   transition: .5s;
+   font-family: 'Arial', sans-serif;
+}
+.navbar ul li:hover a{
+    color: rgb(0, 0, 0);
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 9% 0;
+    color: white;
+}
+h1{
+     -webkit-text-stroke: 2px #2CE1EB ;
+    font-size: 40px;
+    font-family: "Courier New", monospace; 
+
+}
+h2{
+    font-size: 30px;
+    font-family: "Courier New", monospace; 
+    -webkit-text-stroke: 1.5px #2CE1EB ;
+}
+.home-info .button a{
+  display: inline-flex;
+  padding: 8px;
+  border: 2px #2CE1EB;
+  border-radius: 40%;
+  margin-left: 2em;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  transition: 5s;
+}
+.home-info .button a:hover{
+ background-color: #21E9D8 ;
+ color: black;
+ box-shadow: 20%;
+}
+
+.home-img .img-box{
+
+    width: 15vw;
+    height: 15vw;
+    margin-left: 4em;
+    background: #21E9D8 ;
+    border-radius: 50%;
+    padding: 3px;
+}
+.home-img .img-box .img-item{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.home-img .img-box .img-item img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+main{
+    color: aliceblue;
+    width: 75%;
+    text-align: center;
+    font-weight: 200px;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid tomato;
+
+}
+p{-webkit-text-stroke: 2px black;
+    font-size: 28px;
+    color:#2CE1EB  ;
+    font-family: "Lucida Console", Monaco, monospace; 
+}
+.div1{
+    border: 2px solid gray;
+}
+.div2{
+    border: 2px solid tan;
+    color: white;
+    height: 30%;
+    width: 30%;
+    display: grid;
+}
+.footer {
+            background-color: #0AAE84 ;
+            color: black;
+            
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: lightblue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
